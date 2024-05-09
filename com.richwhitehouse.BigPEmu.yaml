@@ -16,6 +16,9 @@ finish-args:
   - --socket=wayland
   - --allow=bluetooth
 modules:
+  - shared-modules/SDL2/SDL2-with-libdecor.json
+  - shared-modules/glu/glu-9.json
+
   - name: bigpemu
     buildsystem: simple
     build-commands:
@@ -23,7 +26,7 @@ modules:
       - install -Dm 0644 ${FLATPAK_ID}.desktop ${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop
       - install -Dm 0644 ${FLATPAK_ID}.metainfo.xml ${FLATPAK_DEST}/share/metainfo/${FLATPAK_ID}.metainfo.xml
       - install -Dm 0644 bigpemu-icon.png ${FLATPAK_DEST}/share/icons/hicolor/128x128/apps/${FLATPAK_ID}.png
-      - cp -r ReadMe.txt ${FLATPAK_DEST}/bin/
+      - cp ReadMe.txt ${FLATPAK_DEST}/bin/
       - cp -r Data ${FLATPAK_DEST}/bin/
       - cp -r Scripts ${FLATPAK_DEST}/bin/
       - cp -r Strings ${FLATPAK_DEST}/bin/
