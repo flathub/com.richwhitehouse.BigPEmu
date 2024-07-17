@@ -33,8 +33,8 @@ modules:
       - cp -r plugins ${FLATPAK_DEST}/bin/
     sources:
       - type: archive
-        url: https://www.richwhitehouse.com/jaguar/builds/BigPEmu_Linux64_v114.tar.gz
-        sha256: b9c9ced57674c063332308640f868918d10b7439af1a2d77d54925e25d73b23b
+        url: https://www.richwhitehouse.com/jaguar/builds/BigPEmu_Linux64_v115.tar.gz
+        sha256: f0d055169e147c59d4c34497f61a1419d4110b53bf22eba740d7c74e0f65b38e
       - type: file
         path: com.richwhitehouse.BigPEmu.desktop
       - type: file
