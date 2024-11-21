@@ -1,6 +1,6 @@
 id: com.richwhitehouse.BigPEmu
 runtime: org.freedesktop.Platform
-runtime-version: "23.08"
+runtime-version: "24.08"
 sdk: org.freedesktop.Sdk
 command: bigpemu
 separate-locales: false
@@ -33,8 +33,8 @@ modules:
       - cp -r plugins ${FLATPAK_DEST}/bin/
     sources:
       - type: archive
-        url: https://www.richwhitehouse.com/jaguar/builds/BigPEmu_Linux64_v115.tar.gz
-        sha256: f0d055169e147c59d4c34497f61a1419d4110b53bf22eba740d7c74e0f65b38e
+        url: https://www.richwhitehouse.com/jaguar/builds/BigPEmu_Linux64_v116.tar.gz
+        sha256: 918ef2bdaf44900758c769eb2dbed9c62277a4e1d8d921b14ef8e0eac9d90de3
       - type: file
         path: com.richwhitehouse.BigPEmu.desktop
       - type: file
