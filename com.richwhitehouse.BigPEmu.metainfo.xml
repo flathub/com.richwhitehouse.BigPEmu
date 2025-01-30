@@ -20,6 +20,7 @@
   <url type="homepage">https://richwhitehouse.com/jaguar</url>
   <launchable type="desktop-id">com.richwhitehouse.BigPEmu.desktop</launchable>
   <releases>
+    <release version="1.18" date="2025-01-25"/>
     <release version="1.17" date="2024-11-27"/>
     <release version="1.16" date="2024-11-21"/>
     <release version="1.15" date="2024-07-16"/>
