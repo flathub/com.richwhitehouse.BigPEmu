@@ -34,13 +34,13 @@ modules:
       - type: archive
         only-arches:
           - aarch64
-        url: https://www.richwhitehouse.com/jaguar/builds/BigPEmu_LinuxARM64_v122.tar.gz
-        sha256: afacd7254baa5d2858146651e1e2b7f7cc7beb7f0ea65cdc62a87c296170f646
+        url: https://www.richwhitehouse.com/jaguar/builds/BigPEmu_LinuxARM64_v1221.tar.gz
+        sha256: a73cb33b27cf1178e487c9eb5b784bdcaac2209fe92a8ed85d3905d52a37a7e4
       - type: archive
         only-arches:
           - x86_64
-        url: https://www.richwhitehouse.com/jaguar/builds/BigPEmu_Linux64_v122.tar.gz
-        sha256: cf5af4e2a759e8b36a19bdc7c2908c7b228feaf609cf684056c2321c07c9b1b5
+        url: https://www.richwhitehouse.com/jaguar/builds/BigPEmu_Linux64_v1221.tar.gz
+        sha256: c0ff610f21d5f55c01c404ef991d89f769a5b3b893c8570c033bcef44121ee57
       - type: file
         path: com.richwhitehouse.BigPEmu.desktop
       - type: file
